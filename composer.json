@@ -1,0 +1,10 @@
+{
+    "name": "dev/wc-top-pick-by-sale",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Dev\\WoocommerceTopPickBySale\\": "src/"
+        }
+    },
+    "require": {}
+}

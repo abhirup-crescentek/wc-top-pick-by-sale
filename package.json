@@ -1,0 +1,23 @@
+{
+  "name": "wc-top-pick-by-sale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.12.0"
+  },
+  "dependencies": {
+    "react-axios": "^2.0.6",
+    "react-router-dom": "^6.26.2",
+    "react-select": "^5.8.0",
+    "react-spinner": "^0.2.7",
+    "react-spinners": "^0.14.1"
+  }
+}

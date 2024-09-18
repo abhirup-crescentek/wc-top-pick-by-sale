@@ -1,0 +1,310 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Top Pick By Sale\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-02 06:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3\n"
+"X-Domain: wc-top-pick-by-sale"
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:213
+msgid "%order_count% bought in past %day_count% days."
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-core-functions.php:6
+#, php-format
+msgid ""
+"%sWoocommerce Top Pick By Sale is inactive.%s The %sWooCommerce plugin%s "
+"must be active for the WooCommerce Top Picks to work. Please %sinstall & "
+"activate WooCommerce%s"
+msgstr ""
+
+#: classes/emails/class-wc-top-pick-cron-email.php:29
+msgid "Admin will get a notification email when top pick cron run"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Assign the top-selling products within a specified time frame to a chosen "
+"category."
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:165
+msgid "Avialable Shortcodes"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:65
+msgid "Choose a Category as Top Pick"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:67 
+#: includes/wc-top-pick-by-sale-setting-functions.php:76 
+#: includes/wc-top-pick-by-sale-setting-functions.php:116
+msgid "Choose options"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:115
+msgid "Choose Order Statuses to Include in Order Item Count"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:75
+msgid "Choose Ordering Periods for Item Searches and Sales Count"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:74
+msgid "Choose Previous Ordering Periods"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:58
+msgid "Configure Basic Top Pick By Sales Settings. "
+msgstr ""
+
+#. Author of the plugin
+msgid "Crescentek"
+msgstr ""
+
+#: classes/emails/class-wc-top-pick-cron-email.php:64
+msgid "Cron report"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:159
+msgid ""
+"Customize the Massage to Show Recent Orders. Note: Use %order_count% as "
+"number of orders and %day_count% as days."
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:168
+msgid "Description"
+msgstr ""
+
+#: classes/widgets/class-wc-top-pick-by-sale-products.php:16
+msgid "Displays a list of top pick by sale products."
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:39
+msgid "Eight"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:42
+msgid "Eleven"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:36
+msgid "Five"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:35
+msgid "Four"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:123
+msgid "Frontend"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:125
+msgid "Frontend Settings"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:56
+msgid "General"
+msgstr ""
+
+#: templates/emails/cron_admin_email.php:13 
+#: templates/emails/plain/cron_admin_email.php:11
+msgid "Hi there!"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.crescentek.com/"
+msgstr ""
+
+#: templates/emails/cron_admin_email.php:17 
+#: templates/emails/plain/cron_admin_email.php:17
+msgid "Kindly download the CSV of all previously unassign products."
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:49
+#, php-format
+msgid "Last %s Month"
+msgstr ""
+
+#: classes/class-wc-top-pick-by-sale-shortcode.php:67
+msgid "Latest"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:99
+msgid "Max Assign Products"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:100
+msgid "Maximum Products to be Assign in Selected Category.(Default: Not Set)"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:106
+msgid ""
+"Minimum Quantity Required to Assign a Product in the Top Pick Category."
+"(Default: 0)"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:40
+msgid "Nine"
+msgstr ""
+
+#: classes/emails/class-wc-top-pick-cron-email.php:28
+msgid "Notify admin"
+msgstr ""
+
+#: classes/widgets/class-wc-top-pick-by-sale-products.php:31
+msgid "Number of Products to Show"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:32
+msgid "One"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:157
+msgid "Order Count Text"
+msgstr ""
+
+#: classes/class-wc-top-pick-by-sale-shortcode.php:69
+msgid "Price: High to Low"
+msgstr ""
+
+#: classes/class-wc-top-pick-by-sale-shortcode.php:68
+msgid "Price: Low to High"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-core-functions.php:187
+msgid "Product Id"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-core-functions.php:188
+msgid "Product Name"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-core-functions.php:189
+msgid "Product SKU"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-core-functions.php:190
+msgid "Sales Count"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:66
+msgid "Select a Category to Assign All Top Pick Products"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:105
+msgid "Select Minimum Order Quantity of a Product"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:114
+msgid "Select Order Status"
+msgstr ""
+
+#. parent slug
+#. page title
+#: admin/class-wc-top-pick-by-sale-settings.php:32 
+#: admin/class-wc-top-pick-by-sale-settings.php:33
+msgid "Settings"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:38
+msgid "Seven"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:167
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:173
+msgid "Show all top pick products in a page"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:131 
+#: includes/wc-top-pick-by-sale-setting-functions.php:137
+msgid "Show Order Count in Single Product Page"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:37
+msgid "Six"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:145
+msgid "Specify the Duration for Order Item Sale (Days)"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:146
+msgid ""
+"Specify the Duration for Order Item Sale To Show in Single Product Page."
+"(Default: 7 days)"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-core-functions.php:191
+msgid "Status"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:41
+msgid "Ten"
+msgstr ""
+
+#: templates/emails/cron_admin_email.php:15 
+#: templates/emails/plain/cron_admin_email.php:15
+msgid ""
+"This is to inform you that our system has automatically assigned products to "
+"categories based on predefined criteria."
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:34
+msgid "Three"
+msgstr ""
+
+#: classes/widgets/class-wc-top-pick-by-sale-products.php:23
+msgid "Title"
+msgstr ""
+
+#: classes/widgets/class-wc-top-pick-by-sale-products.php:18
+msgid "Top Pick By Sale Products"
+msgstr ""
+
+#: classes/widgets/class-wc-top-pick-by-sale-products.php:22
+msgid "Top Pick Products"
+msgstr ""
+
+#: admin/class-wc-top-pick-by-sale-settings.php:21 
+#: admin/class-wc-top-pick-by-sale-settings.php:22
+msgid "Top Picks"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:43
+msgid "Twelfth"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:33
+msgid "Two"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:82
+msgid "Unassign Previous Top Pick Products"
+msgstr ""
+
+#: includes/wc-top-pick-by-sale-setting-functions.php:88
+msgid "Unassign Previous Top Pick Products From Selected Catagory"
+msgstr ""
+
+#: classes/emails/class-wc-top-pick-cron-email.php:74
+msgid "Welcome to {site_title}"
+msgstr ""
+
+#. Name of the plugin
+msgid "Woocommerce Top Pick By Sale"
+msgstr ""
