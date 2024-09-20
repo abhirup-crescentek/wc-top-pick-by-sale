@@ -46,7 +46,8 @@ if ( ! function_exists( 'wctpbs_admin_tabs' ) ) {
         foreach ( $periods as $key => $value ) {
             $order_periods[] = array(
                 'value' => $key,
-                'label' => sprintf( __( 'Last %s Month', 'wc-top-pick-by-sale' ), $value ),
+                /* translators: %s: month name */
+                'label' => sprintf( __( 'Last %s Month', 'wc-top-pick-by-sale' ), $value ), 
                 'key'   => $key,
             );
         } 

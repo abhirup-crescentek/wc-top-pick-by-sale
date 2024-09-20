@@ -51,7 +51,7 @@ class WC_Top_Pick_By_Sale_Frontend {
 					$row_massage = wctpbs_get_plugin_settings( 'shown_order_count_text' , $default_massages['shown_order_count_text'] );
 					$shown_order_text = str_replace( "%day_count%", $days, $row_massage );
 					$shown_order_text = str_replace( "%order_count%", $count, $shown_order_text );
-					echo "<p>$shown_order_text</p>";
+					echo "<p>" . esc_html($shown_order_text) . "</p>";
 				}
 			}
 		}

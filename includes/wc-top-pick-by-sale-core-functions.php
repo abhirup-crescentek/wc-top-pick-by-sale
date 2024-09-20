@@ -3,7 +3,28 @@ if ( ! function_exists( 'woocommerce_inactive_notice' ) ) {
     function woocommerce_inactive_notice() {
         ?>
         <div id="message" class="error">
-            <p><?php printf( __( '%1$sWoocommerce Top Pick By Sale is inactive.%2$s The %3$sWooCommerce plugin%4$s must be active for the WooCommerce Top Picks to work. Please %5$sinstall & activate WooCommerce%6$s', 'wc-top-pick-by-sale'), '<strong>', '</strong>', '<a target="_blank" href="http://wordpress.org/extend/plugins/woocommerce/">', '</a>', '<a href="' . admin_url( 'plugins.php' ) . '">', '&nbsp;&raquo;</a>' ); ?></p>
+            <p><?php 
+                printf(
+                    /* translators: %1$s: <strong> */
+                    /* translators: %2$s: </strong> */
+                    /* translators: %3$s: <a target="_blank" href="http://wordpress.org/extend/plugins/woocommerce/"> */
+                    /* translators: %4$s: </a> */
+                    /* translators: %5$s: <a href="' . admin_url( 'plugins.php' ) . '"> */
+                    /* translators: %6$s: &nbsp;&raquo;</a> */
+                    esc_html__(
+                        '%1$sWoocommerce Top Pick By Sale is inactive.%2$s The %3$sWooCommerce plugin%4$s must be active for the WooCommerce Top Picks to work. Please %5$sinstall & activate WooCommerce%6$s',
+                        'wc-top-pick-by-sale'
+                    ),
+                    '<strong>',
+                    '</strong>',
+                    '<a target="_blank" href="' . esc_url( 'http://wordpress.org/extend/plugins/woocommerce/' ) . '">',
+                    '</a>',
+                    '<a href="' . esc_url( admin_url( 'plugins.php' ) ) . '">',
+                    '&nbsp;&raquo;</a>'
+                );
+
+                ?>
+            </p>
         </div>
         <?php
     }
