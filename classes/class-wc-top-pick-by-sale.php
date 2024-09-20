@@ -134,7 +134,7 @@ class WC_Top_Pick_By_Sale {
         $optionname = 'wctpbs_'.$modulename.'_tab_settings';
         update_option( $optionname, $get_managements_data );
         do_action( 'wctpbs_settings_after_save', $modulename, $get_managements_data );
-        $all_details['error'] = __( 'Settings Saved', 'wc-top-picks' );
+        $all_details['error'] = __( 'Settings Saved', 'wc-top-pick-by-sale' );
         return $all_details;
         die;
     }
